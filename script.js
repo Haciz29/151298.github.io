@@ -21,10 +21,15 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-		artist: "Dig Didzay",
-		name: "Nếu Anh Đi (Cover)",
-		url: "Musics/NeuAnhDi.mp3",
-		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        artist: "Phạm Đình Thái Ngân",
+        name: "Lạ",
+        url: "Musics/La-PhamDinhThaiNgan-3786182.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+    }, {
+        artist: "Chillies",
+        name: "Và Thế Là Hết",
+        url: "Musics/VaTheLaHet-Chillies-5833412.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
 	}];
 	
 	function shuffle(a) {
@@ -228,6 +233,7 @@ $(function()
 
             albumName.text(currAlbum);
             trackName.text(currTrackName);
+            albumArt.find('img').attr('src', currArtwork);
             $('#album-art img').prop('src', bgArtworkUrl);
         }
         else
