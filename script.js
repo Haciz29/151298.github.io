@@ -30,7 +30,53 @@ $(function()
         name: "Và Thế Là Hết",
         url: "Musics/VaTheLaHet-Chillies-5833412.mp3",
         picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-	}];
+	}, {
+        artist: "Crush",
+        name: "Beautiful",
+        url: "Musics/Beautiful-Crush-5184657.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+    }, {
+        artist: "LasseLindh",
+        name: "Hush",
+        url: "Musics/HushGoblinOST-LasseLindh-4698550.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+    }, {
+        artist: "So You",
+        name: "I Miss You",
+        url: "Musics/IMissYouGoblinOST-SoYouSISTAR-4724626.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+    }, {
+        artist: "Ailee",
+        name: "I WIll Go To You Like The First Snow",
+        url: "Musics/IWillGoToYouLikeTheFirstSnow-Ailee-5241919.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+    }, {
+        artist: "10cm",
+        name: "My Eyes",
+        url: "Musics/MyEyesGoblinOST-10cm-4698012.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+    }, {
+        artist: "Heize, Han Soo Ji",
+        name: "Round And Round",
+        url: "Musics/RoundAndRoundGoblinOST-HeizeHanSooJi-4755766.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+    }, {
+        artist: "Chan Yeol",
+        name: "Stay With Me",
+        url: "Musics/StayWithMe-ChanYeolEXOPunch-4939315.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+    }, {
+        artist: "San Kim",
+        name: "Who Are You",
+        url: "Musics/WhoAreYouGoblinOST-SamKim-4717929.mp3",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+    }, {
+        artist: "Eddy Kim",
+        name: "You Are So Beautiful",
+        url: "Musics/YouAreSoBeautifulGoblinOst-EddyKim-47179023",
+        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+   
+    }];
 	
 	function shuffle(a) {
 		var j, x, i;
