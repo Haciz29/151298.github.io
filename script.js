@@ -73,7 +73,7 @@ $(function()
     }, {
         artist: "Eddy Kim",
         name: "You Are So Beautiful",
-        url: "Musics/YouAreSoBeautifulGoblinOst-EddyKim-47179023",
+        url: "Musics/YouAreSoBeautifulGoblinOst-EddyKim-47179023.mp3",
         picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
    
     }];
