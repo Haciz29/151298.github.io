@@ -21,7 +21,7 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-          artist: "Alo alo ny nghe đi ",
+        artist: "Alo alo ny nghe đi ",
         name: "Nhạc cho Hnt",
         url: "Musics/a1.mp3",
         picture: "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/93670712_649493795612647_4674048127521521664_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=SKh1QWJ03w0AX_rYZih&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&_nc_tp=6&oh=902ad47901652f14d8a5317c18acbf44&oe=5EB8F942"
