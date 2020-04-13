@@ -21,16 +21,30 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-        artist: "Không biết luôn nè",
+          artist: "Alo alo ny nghe đi ",
         name: "Nhạc cho Hnt",
-        url: "Musics/Nature Therapy- Relaxing Full Motion Forestry with Natural Sounds.mp3",
+        url: "Musics/a1.mp3",
         picture: "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/93670712_649493795612647_4674048127521521664_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=SKh1QWJ03w0AX_rYZih&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&_nc_tp=6&oh=902ad47901652f14d8a5317c18acbf44&oe=5EB8F942"
     }, {
-        artist: "Không biết nữa tiếp nè",
+        artist: "Alo alo ny nghe tiếp nè",
         name: "Nhạc trời nắng chứ",
         url: "Musics/NhacThienNhien-Hoatau_pxf6.mp3",
         picture: "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/93670712_649493795612647_4674048127521521664_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=SKh1QWJ03w0AX_rYZih&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&_nc_tp=6&oh=902ad47901652f14d8a5317c18acbf44&oe=5EB8F942"
-       
+    }, {
+        artist: "Thấy ny cmt nên...",
+        name: "Nhạc trời nắng nè",
+        url: "Musics/a2.mp3",
+        picture: "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/93670712_649493795612647_4674048127521521664_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=SKh1QWJ03w0AX_rYZih&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&_nc_tp=6&oh=902ad47901652f14d8a5317c18acbf44&oe=5EB8F942"
+    }, {
+        artist: "Mlem mlem",
+        name: "Nhạc trời nắng đó",
+        url: "Musics/a3.mp3",
+        picture: "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/93670712_649493795612647_4674048127521521664_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=SKh1QWJ03w0AX_rYZih&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&_nc_tp=6&oh=902ad47901652f14d8a5317c18acbf44&oe=5EB8F942"
+    }, {
+        artist: "Chó lợn làm cho đó"
+        name: "Nhạc trời nắng to",
+        url: "Musics/a4.mp3",
+        picture: "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/93670712_649493795612647_4674048127521521664_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=SKh1QWJ03w0AX_rYZih&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&_nc_tp=6&oh=902ad47901652f14d8a5317c18acbf44&oe=5EB8F942"
     }];
 	
 	function shuffle(a) {
