@@ -21,66 +21,16 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-        artist: "Phạm Đình Thái Ngân",
-        name: "Lạ",
-        url: "Musics/La-PhamDinhThaiNgan-3786182.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
+        artist: "Không biết luôn nè",
+        name: "Nhạc cho Hnt",
+        url: "Nature Therapy- Relaxing Full Motion Forestry with Natural Sounds.mp3",
+        picture: "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/93670712_649493795612647_4674048127521521664_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=SKh1QWJ03w0AX_rYZih&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&_nc_tp=6&oh=902ad47901652f14d8a5317c18acbf44&oe=5EB8F942"
     }, {
         artist: "Chillies",
         name: "Và Thế Là Hết",
         url: "Musics/VaTheLaHet-Chillies-5833412.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-	}, {
-        artist: "Crush",
-        name: "Beautiful",
-        url: "Musics/Beautiful-Crush-5184657.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-    }, {
-        artist: "LasseLindh",
-        name: "Hush",
-        url: "Musics/HushGoblinOST-LasseLindh-4698550.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-    }, {
-        artist: "So You",
-        name: "I Miss You",
-        url: "Musics/IMissYouGoblinOST-SoYouSISTAR-4724626.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-    }, {
-        artist: "Ailee",
-        name: "I WIll Go To You Like The First Snow",
-        url: "Musics/IWillGoToYouLikeTheFirstSnow-Ailee-5241919.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-    }, {
-        artist: "10cm",
-        name: "My Eyes",
-        url: "Musics/MyEyesGoblinOST-10cm-4698012.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-    }, {
-        artist: "Heize, Han Soo Ji",
-        name: "Round And Round",
-        url: "Musics/RoundAndRoundGoblinOST-HeizeHanSooJi-4755766.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-    }, {
-        artist: "Chan Yeol",
-        name: "Stay With Me",
-        url: "Musics/StayWithMe-ChanYeolEXOPunch-4939315.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-    }, {
-        artist: "San Kim",
-        name: "Who Are You",
-        url: "Musics/WhoAreYouGoblinOST-SamKim-4717929.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-    }, {
-        artist: "Eddy Kim",
-        name: "You Are So Beautiful",
-        url: "Musics/YouAreSoBeautifulGoblinOst-EddyKim-4717902.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-    }, {
-        artist: "Phạm Đình Thái Ngân",
-        name: "Có Chàng Trai Viết Lên Cây",
-        url: "Musics/CoChangTraiVietLenCayCover-PhamDinhThaiNgan-6054492.mp3",
-        picture: "https://scontent.fhan5-6.fna.fbcdn.net/v/t1.15752-9/84704002_612383326000517_5492208082802966528_n.png?_nc_cat=105&_nc_ohc=68of-pboqtQAX909kWO&_nc_ht=scontent.fhan5-6.fna&oh=a7ea6bbc933a2028fe103415a1fd9b7a&oe=5EDAD9C1"
-      
+        picture: "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/93670712_649493795612647_4674048127521521664_n.jpg?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=SKh1QWJ03w0AX_rYZih&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&_nc_tp=6&oh=902ad47901652f14d8a5317c18acbf44&oe=5EB8F942"
+       
     }];
 	
 	function shuffle(a) {
